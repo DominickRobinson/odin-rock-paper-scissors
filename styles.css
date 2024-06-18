@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #14213d;
+}
+
+/* header */
+
+header {
+    background-color: black;
+    padding: 20px 0px 30px;
+}
+
+header p {
+    text-align: center;
+    color: white;
+    font-size: larger;
+
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fca311;
+    margin-bottom: 10px;
+}
+
+
+/* score display */
+
+.display-container {
+    margin: 50px 200px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    border-width: 2.5px;
+    background-color: #14213d;
+    min-height: min-content;
+    min-width: min-content;
+    max-height: 400px;
+    align-self: center;
+}
+
+
+.score-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.score-container p {
+    font-size: 40px;
+}
+
+
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: min-content;
+}
+
+.display p {
+    color: white;
+    font-size: 40px;
+}
+
+.display img {
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+.move-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.move-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 0px 100px;
+    margin-bottom: 50px;
+}
+
+.move-selection p {
+    font-size: 60px;
+}
+
+.move {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.move p {
+    color: white;
+    font-size: 50px;
+}
+
+.move img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+button {
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border-width: 5px;
+    background-color: #14213d;
+}
+
+button:hover {
+    background-color: black;
+}
+
+button:focus {
+    background-color: #fca311;
+}
